@@ -12,6 +12,7 @@ net_price = (price - discount) + vat
 st.header(f"• ราคาสินค้า: {price:.2f} บาท")
 st.header(f"• เปอร์เซนส่วนลด: {percent:.2f} %")
 st.header(f"• ส่วนลด: {discount:.2f} บาท")
+st.header(f"• ราคาหลังหักส่วนลด: {price - discount:.2f} บาท")
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
 st.divider()
